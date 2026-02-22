@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Pocket Linguist — a Nana's Design app." />
+  <title>Privacy Policy | Pocket Linguist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --indigo:   #6366f1;
+      --violet:   #8b5cf6;
+      --bg:       #0d0d14;
+      --surface:  #14141f;
+      --surface2: #1c1c2e;
+      --border:   #2a2a40;
+      --text:     #e2e2f0;
+      --muted:    #8b8ba8;
+      --accent:   #6366f1;
+      --radius:   12px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    /* ── Nav ─────────────────────────────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,13,20,.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-brand {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--indigo), var(--violet));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-decoration: none;
+    }
+
+    .nav-back {
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .nav-back:hover { color: var(--indigo); }
+
+    /* ── Layout ──────────────────────────────────────────────────── */
+    .wrapper {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    /* ── Header ──────────────────────────────────────────────────── */
+    .page-header {
+      margin-bottom: 40px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--indigo);
+      background: rgba(99,102,241,.12);
+      border: 1px solid rgba(99,102,241,.25);
+      padding: 4px 12px;
+      border-radius: 99px;
+      margin-bottom: 16px;
+    }
+
+    .page-header h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+
+    .page-header .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    /* ── Sections ─────────────────────────────────────────────────── */
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+      padding-left: 12px;
+      border-left: 3px solid var(--accent);
+    }
+
+    section p {
+      font-size: 0.93rem;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 10px 0;
+    }
+
+    ul li {
+      font-size: 0.93rem;
+      color: var(--text);
+      padding: 5px 0 5px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 14px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      opacity: .7;
+    }
+
+    a {
+      color: var(--indigo);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    /* ── Contact card ────────────────────────────────────────────── */
+    .contact-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-top: 12px;
+    }
+
+    .contact-card p {
+      margin-bottom: 6px;
+    }
+
+    /* ── Footer ──────────────────────────────────────────────────── */
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .footer a { color: var(--muted); }
+    .footer a:hover { color: var(--indigo); }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav" role="navigation" aria-label="Site navigation">
+    <a href="/" class="nav-brand" aria-label="Pocket Linguist home">Pocket Linguist</a>
+    <a href="/" class="nav-back" aria-label="Back to home page">&larr; Back to home</a>
+  </nav>
+
+  <!-- Content -->
+  <main class="wrapper" id="main-content">
+
+    <header class="page-header">
+      <div class="badge">Legal</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        Nana's Design &nbsp;&middot;&nbsp; Pocket Linguist &nbsp;&middot;&nbsp; Last updated: February 2026
+      </p>
+    </header>
+
+    <section aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Overview</h2>
+      <p>
+        Pocket Linguist ("the App") is developed and operated by <strong>Nana's Design</strong>.
+        This Privacy Policy explains what information we collect, how we use it, and your rights
+        regarding your data. We are committed to handling your information transparently and
+        responsibly.
+      </p>
+      <p>
+        By using Pocket Linguist, you agree to the practices described in this policy.
+        If you do not agree, please discontinue use of the App.
+      </p>
+    </section>
+
+    <section aria-labelledby="collect-heading">
+      <h2 id="collect-heading">Information We Collect</h2>
+      <p>We collect minimal information necessary to provide the App's core functionality:</p>
+      <ul>
+        <li><strong>Usage data</strong> — screens viewed, features used, session length, and crash reports, collected anonymously through analytics.</li>
+        <li><strong>Device information</strong> — device type, operating system version, and language settings, used solely for compatibility and performance optimization.</li>
+        <li><strong>In-app progress</strong> — your learning progress, quiz scores, and language preferences, stored locally on your device.</li>
+        <li><strong>Voluntary information</strong> — if you contact us by email, we retain that correspondence to respond to your inquiry.</li>
+      </ul>
+      <p>
+        We do <strong>not</strong> collect your name, address, payment information, or any
+        sensitive personal data through the App itself.
+      </p>
+    </section>
+
+    <section aria-labelledby="use-heading">
+      <h2 id="use-heading">How We Use Your Information</h2>
+      <p>Information collected is used exclusively to:</p>
+      <ul>
+        <li>Deliver and improve the App's language learning features</li>
+        <li>Diagnose technical issues and fix bugs</li>
+        <li>Understand aggregate usage patterns to prioritize new content</li>
+        <li>Respond to support requests you initiate</li>
+      </ul>
+      <p>
+        We do not sell, rent, or share your personal information with third parties
+        for advertising or marketing purposes.
+      </p>
+    </section>
+
+    <section aria-labelledby="third-party-heading">
+      <h2 id="third-party-heading">Third-Party Services</h2>
+      <p>Pocket Linguist integrates the following third-party services, each governed by their own privacy policy:</p>
+      <ul>
+        <li>
+          <strong>Pinterest API</strong> — used to surface language-learning content and allow
+          optional content sharing. Pinterest may collect data in accordance with the
+          <a href="https://policy.pinterest.com/en/privacy-policy" target="_blank" rel="noopener noreferrer">Pinterest Privacy Policy</a>.
+        </li>
+        <li>
+          <strong>Analytics</strong> — we use anonymous, aggregated analytics (no personally
+          identifiable information) to understand how users interact with the App and improve
+          the experience.
+        </li>
+        <li>
+          <strong>Apple App Store / Google Play</strong> — distribution platforms that may
+          collect their own usage metrics per their respective privacy policies.
+        </li>
+      </ul>
+      <p>
+        We encourage you to review the privacy policies of these third-party services
+        to understand how they handle your data.
+      </p>
+    </section>
+
+    <section aria-labelledby="cookies-heading">
+      <h2 id="cookies-heading">Cookies and Tracking</h2>
+      <p>
+        The App itself does not use cookies. If you visit our website or associated web pages,
+        standard web analytics may set cookies to measure traffic. These cookies contain no
+        personally identifiable information and can be blocked through your browser settings
+        without affecting your use of the App.
+      </p>
+    </section>
+
+    <section aria-labelledby="retention-heading">
+      <h2 id="retention-heading">Data Retention</h2>
+      <p>
+        Learning progress and preferences are stored locally on your device and are deleted
+        when you uninstall the App. Anonymous analytics data is retained for up to 24 months
+        in aggregate form, after which it is deleted or fully anonymized.
+      </p>
+      <p>
+        Support correspondence sent via email is retained for up to 12 months from the date
+        of last contact, then deleted.
+      </p>
+    </section>
+
+    <section aria-labelledby="children-heading">
+      <h2 id="children-heading">Children's Privacy</h2>
+      <p>
+        Pocket Linguist is not directed at children under the age of 13. We do not knowingly
+        collect personal information from children. If you believe a child has provided us with
+        personal information, please contact us and we will delete it promptly.
+      </p>
+    </section>
+
+    <section aria-labelledby="rights-heading">
+      <h2 id="rights-heading">Your Rights</h2>
+      <p>Depending on your jurisdiction, you may have the right to:</p>
+      <ul>
+        <li>Request access to any personal data we hold about you</li>
+        <li>Request correction or deletion of your personal data</li>
+        <li>Object to or restrict certain types of processing</li>
+        <li>Withdraw consent at any time, where processing is based on consent</li>
+      </ul>
+      <p>
+        To exercise any of these rights, contact us at the email address below. We will
+        respond within 30 days.
+      </p>
+    </section>
+
+    <section aria-labelledby="security-heading">
+      <h2 id="security-heading">Security</h2>
+      <p>
+        We implement industry-standard security measures to protect any data we process.
+        Because most user data is stored locally on your device, you are also in direct
+        control of its security through your device's own security settings (passcode,
+        biometrics, encryption).
+      </p>
+    </section>
+
+    <section aria-labelledby="changes-heading">
+      <h2 id="changes-heading">Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we do, we will revise the
+        "Last updated" date at the top of this page. Continued use of the App after any
+        changes constitutes your acceptance of the updated policy. We encourage you to review
+        this page periodically.
+      </p>
+    </section>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>
+        If you have questions, concerns, or requests regarding this Privacy Policy or your
+        personal data, please reach out:
+      </p>
+      <div class="contact-card">
+        <p><strong>Nana's Design</strong></p>
+        <p>Developer of Pocket Linguist</p>
+        <p>Email: <a href="mailto:Ahmed.Mahmoud21@gmail.com">Ahmed.Mahmoud21@gmail.com</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>
+      &copy; 2026 Nana's Design. All rights reserved.
+      &nbsp;&middot;&nbsp;
+      <a href="/">Pocket Linguist</a>
+    </p>
+  </footer>
+
+</body>
+</html>
